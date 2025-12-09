@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.error-msg {
+    opacity: 0;
+    transform: translateY(-4px);
+    transition: all 350ms ease;
+}
+
+.error-msg.active {
+    opacity: 1;
+    transform: translateY(0);
+}
